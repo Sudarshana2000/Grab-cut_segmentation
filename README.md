@@ -12,7 +12,7 @@ OpenCV has an implementation of GrabCut - cv2.grabCut() - which simplifies this 
 - Provide the image for GrabCut segmentation (along with the destination path for saving the output later).
 
 
-![1](images/input.JPG)
+![1](images/input.jpg)
 
 
 - Here, GrabCut is implemeted by initialising with bounding boxes. This can be done in many ways. Here, we chose interactive mouse-click drag-and-drop option. So, pressing the right key, drag a rectangle from top left corner towards bottom right of the foreground object on the image. Upon releasing, the image is segmented partially, focusing the selected foreground object. A mask corresponding to the GrabCut is created.
